@@ -3,25 +3,7 @@
 Create an entire React application from scratch, complete with routing and AJAX requests to the [Dog Ceo API](https://dog.ceo/dog-api/): an API for dog images. The purpose of this web applivation is for users to find dogs that they like and if the dog likes the user back.
 
 ## Instructions
-
-* Start by scaffolding out a new starter React app by running the following command in your terminal `create-react-app pupster`.
-
-* cd into the `pupster` directory and run the following command to install React Router and Axios:
-
-  ```
-  npm install axios react-router-dom
-  ```
-
-* **Recommended:** Add the Bootstrap and Font Awesome CDNs to your application's `index.html` file:
-
-  ```html
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
-  ```
-
-* Open [https://pupster.netlify.com/](https://pupster.netlify.com/) in your web browser and take a few moments to study the example application. You will be basing your Pupster app off of this example.
-
-  * This example contains 3 routes:
+  * Have 3 routes:
 
     1. `/about`: A static welcome screen for visitors to the application.
 

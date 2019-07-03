@@ -1,10 +1,12 @@
 import React from 'react';
 import './style.css'
 
-function Footer() {
+function Footer(props) {
     return (
-        <h1>Footer</h1>
-    );
+        <footer className="footer">
+            <span>Pupster 2019</span>
+        </footer>
+    )
 }
 
 export default Footer;
